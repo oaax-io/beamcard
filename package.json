@@ -1,0 +1,15 @@
+{
+  "name": "beamio-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Beamio platform monorepo with React/Vite frontend and NestJS backend.",
+  "scripts": {
+    "install:all": "npm ci --prefix frontend && npm ci --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run start:dev --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:backend": "npm run build --prefix backend",
+    "lint:frontend": "npm run lint --prefix frontend",
+    "lint:backend": "npm run lint --prefix backend"
+  }
+}
