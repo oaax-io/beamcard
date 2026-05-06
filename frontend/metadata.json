@@ -1,0 +1,5 @@
+{
+  "name": "BeamCard",
+  "description": "A multi-tenant platform for creating and managing Google Wallet cards.",
+  "requestFramePermissions": []
+}
